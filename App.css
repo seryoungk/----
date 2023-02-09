@@ -1,0 +1,226 @@
+.mytodolist {
+  /* my todo list */
+  color: rgb(248, 128, 148);
+  margin: 30px 20px 15px 20px;
+}
+
+.input-group { 
+  /* 제목 내용 추가하기 란 */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f3efff;
+  padding: 12px;
+}
+
+.form-label { 
+  /* 제목, 내용이라는 글자 */
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.add-input { 
+  /* 입력창 */
+  height: 40px;
+  width: 220px;
+  border: none;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+
+.add-button { 
+  /* 추가하기 버튼 */
+  border: none;
+  height: 40px;
+  border-radius: 7px;
+  background-color: rgb(255, 213, 231);
+  width: 100px;
+  color: rgb(59, 59, 59);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px 0px 0px 15px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.list-title {  
+  /* 해야할 일이라는 글자, 끝낸 일이라는 글자 */
+  color: rgb(255, 161, 176);
+  margin: 30px 20px 15px 20px;
+}
+
+
+
+.list-wrapper { 
+  /* 버킷리스트 목록들 박스 */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  border: solid 2px #fccfff;
+  border-radius: 20px;
+  padding: 10px 10px 20px 20px;
+  margin: 15px;
+  width: 190px;
+}
+
+.button-set {
+  /* 버튼들 */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0px 0px 0px;
+}
+
+.todo-delete-button { 
+  /* 삭제하기 버튼 */
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(255, 210, 220);
+  width: 90px;
+  color: rgb(59, 59, 59);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.todo-complete-button {
+  /* 취소하기 완료하기 버튼 */
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(255, 213, 251);
+  width: 60px;
+  color: rgb(59, 59, 59);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container {
+  /* my todo list */
+  color: rgb(255, 60, 103);
+  margin: 30px 20px 15px 20px;
+  font-size: 30px;
+}
+
+.form_container {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+
+  border-radius: 10px;
+  background-color: #e6e6e6;
+
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.input_container {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  height: 25px;
+  width: 35%;
+
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.form_container > button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 99, 133);
+
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.form_container > button:hover {
+  cursor: pointer;
+
+  width: calc(15%);
+}
+
+.container {
+  /* 아이템을 자신이 가진 내용물의 width 만큼만 사용하여 배치*/
+  display: flex;
+  /* 아이템들의 간격 조정(끝과 끝) */
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.layout {
+  /* 레이아웃의 최대, 최소 너비 지정 */
+  max-width: 1200px;
+  min-width: 800px;
+  
+  /* 레이아웃 가운데 정렬 */
+  margin: 0 auto;
+}
+
+.list_container {
+  padding: 20px;
+}
+
+.list_wrapper {
+  display: flex;
+  
+  /* flex-item요소들을 가능한 영역 내에서 벗어나지 않고 여러 행으로 표현 */
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.todo_container {
+  background-color: rgb(255, 235, 240);
+  border: 3px solid rgb(255, 218, 218);
+  border-radius: 10px;
+
+  width: 300px;
+  height: 120px;
+  padding: 10px 10px 25px 10px;
+
+  text-align: center;
+}
+
+.todo_container > p {
+  color:rgb(107, 90, 90);
+}
+
+.todo_container > button {
+  border-radius: 10px;
+  border: none;
+
+  padding: 5px;
+  width: 100px;
+  height: 45px;
+
+  font-weight: bold;
+}
+
+.del_btn {
+  background-color: crimson;
+  color: white;
+  margin-right: 10px;
+}
+
+.del_btn:hover {
+  cursor: pointer;
+}
+
+.compl_btn:hover {
+  cursor: pointer;
+}
